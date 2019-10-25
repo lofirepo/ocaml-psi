@@ -1,0 +1,9 @@
+(test
+ (name test_psi)
+ (package psi)
+ (libraries
+  oUnit
+  nocrypto.unix
+  psi
+ )
+)

@@ -1,0 +1,26 @@
+opam-version: "2.0"
+name: "psi"
+synopsis: "Private Set Intersection"
+maintainer: "TG x Thoth <*@tg-x.net>"
+authors: ["TG x Thoth <*@tg-x.net>"]
+tags: [ "psi" "private" "set" "intersection" "private-set-intersection" ]
+license: "AGPL-3.0"
+homepage: "https://github.com/p2pcollab/ocaml-psi"
+doc: "https://p2pcollab.net/doc/ocaml/psi/"
+dev-repo: "git+https://github.com/p2pcollab/ocaml-psi.git"
+bug-reports: "https://github.com/p2pcollab/ocaml-psi/issues"
+depends:
+[
+  "dune" {build & >= "1.0.0"}
+  "ounit" {with-test}
+  "nocrypto.unix" {with-test}
+  "nocrypto"
+  "bloomf"
+]
+build: [
+  ["dune" "subst"] {pinned}
+  ["dune" "build" "-p" name "-j" jobs]
+]
+run-test: [
+  ["dune" "runtest" "-p" name "-j" jobs]
+]
