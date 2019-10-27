@@ -4,7 +4,7 @@ synopsis: "Private Set Intersection"
 maintainer: "TG x Thoth <*@tg-x.net>"
 authors: ["TG x Thoth <*@tg-x.net>"]
 tags: [ "psi" "private" "set" "intersection" "private-set-intersection" ]
-license: "AGPL-3.0"
+license: "AGPL-3.0-only"
 homepage: "https://github.com/p2pcollab/ocaml-psi"
 doc: "https://p2pcollab.net/doc/ocaml/psi/"
 dev-repo: "git+https://github.com/p2pcollab/ocaml-psi.git"

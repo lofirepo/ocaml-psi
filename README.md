@@ -10,7 +10,7 @@ The following PSI protocols are implemented:
 - Bloom Filter based PSI as described in the paper
   [Do I know you? -- Efficient and Privacy-Preserving Common Friend-Finder Protocols and Applications](https://eprint.iacr.org/2013/620)
 
-PSI is distributed under the AGPL-3.0 license.
+PSI is distributed under the AGPL-3.0-only license.
 
 ## Installation
 
